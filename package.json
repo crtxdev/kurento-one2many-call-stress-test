@@ -1,0 +1,32 @@
+{
+  "name": "kurento-one2many-call-stress-test",
+  "version": "1.0.0",
+  "description": "A puppeteer script to stress test a kurento one2many call demo app and evaluate RTC Peer connection stats",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "clear": "rm -rf ./tests/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kurento",
+    "one2many",
+    "stress",
+    "test",
+    "connection"
+  ],
+  "author": "crtxdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crtxdev/kurento-one2many-call-stress-test"
+  }
+}
